@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arjun</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/jpg" href="favicon.jpeg" />
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" class="calculator-screen" id="screen" disabled />
+      <div class="calculator-buttons">
+        <button class="btn" onclick="appendNumber('1')">1</button>
+        <button class="btn" onclick="appendNumber('2')">2</button>
+        <button class="btn" onclick="appendNumber('3')">3</button>
+        <button class="btn" onclick="appendOperator('+')">+</button>
+        <button class="btn" onclick="appendNumber('4')">4</button>
+        <button class="btn" onclick="appendNumber('5')">5</button>
+        <button class="btn" onclick="appendNumber('6')">6</button>
+        <button class="btn" onclick="appendOperator('-')">-</button>
+        <button class="btn" onclick="appendNumber('7')">7</button>
+        <button class="btn" onclick="appendNumber('8')">8</button>
+        <button class="btn" onclick="appendNumber('9')">9</button>
+        <button class="btn" onclick="appendOperator('*')">*</button>
+        <button class="btn" onclick="appendNumber('0')">0</button>
+        <button class="btn" onclick="appendOperator('.')">.</button>
+        <button class="btn" onclick="calculateResult()">=</button>
+        <button class="btn" onclick="appendOperator('/')">/</button>
+        <button class="btn clear" onclick="clearScreen()">C</button>
+      </div>
+
+      <footer class="cr">
+        <hr />
+        creator: Madavi Arjun <br />
+        &copy; 2024 copyright reserved<br />
+        <small
+          ><a href="https://www.linkedin.com/in/madavi-arjun-805abb265/"
+            >Madavi Arjun</a
+          ></small
+        >
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
